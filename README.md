@@ -14,8 +14,8 @@ babel을 설치해야하는데 뭘까...
 
 ### Creating Query & Resolvers
 Request -> Query(Schema) -> Resolver
-. Query 로 스키마를 정의하고 Resolver로 데이터를 넣어주며
-. 타입에 엄격하고
+. Query 로 스키마를 정의하고 Resolver로 데이터를 넣어주며  
+. 타입에 엄격하고  
 . 서버 구동되면, graphql playground 확인 가능하다.
 
 ### Extending the Schema
