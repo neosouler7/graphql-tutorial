@@ -13,7 +13,7 @@ babel을 설치해야하는데 뭘까...
 > yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 
 ### Creating Query & Resolvers
-Request -> Query(Schema) -> Resolver
+Request -> Query(Schema) -> Resolver  
 . Query 로 스키마를 정의하고 Resolver로 데이터를 넣어주며  
 . 타입에 엄격하고  
 . 서버 구동되면, graphql playground 확인 가능하다.
@@ -29,6 +29,7 @@ Request -> Query(Schema) -> Resolver
 
 ### Wrapping a REST API with GQL
 > yarn add node-fetch  
+
 이미 존재하는 REST API를 GQL로 감싸서 리소스를 효율적으로 사용할 수 있다.
 
 ### Overview to the final API
