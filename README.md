@@ -7,10 +7,10 @@ Over-fetching && Under-fetching
 
 ### Creating a GQL Server with GraphQL Yoga
 babel을 설치해야하는데 뭘까...
-> yarn add graphql-yoga
->> yarn global add nodemon
->>> yarn global add babel-cli --ignore-engines
->>>> yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
+> yarn add graphql-yoga  
+> yarn global add nodemon  
+> yarn global add babel-cli --ignore-engines  
+> yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 
 ### Creating Query & Resolvers
 Request -> Query(Schema) -> Resolver
@@ -24,4 +24,11 @@ Request -> Query(Schema) -> Resolver
 ### Creating Queries with Arguments
 
 ### Defining Mutations
+### Delete Mutation
+값의 변화가 필요할 때 request, paramter 등 처리 없이 mutation을 활용해 처리할 수 있다.
 
+### Wrapping a REST API with GQL
+> yarn add node-fetch
+이미 존재하는 REST API를 GQL로 감싸서 리소스를 효율적으로 사용할 수 있다.
+
+### Overview to the final API
