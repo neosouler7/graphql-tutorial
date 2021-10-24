@@ -28,7 +28,7 @@ Request -> Query(Schema) -> Resolver
 값의 변화가 필요할 때 request, paramter 등 처리 없이 mutation을 활용해 처리할 수 있다.
 
 ### Wrapping a REST API with GQL
-> yarn add node-fetch
+> yarn add node-fetch  
 이미 존재하는 REST API를 GQL로 감싸서 리소스를 효율적으로 사용할 수 있다.
 
 ### Overview to the final API
